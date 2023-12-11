@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: white;
+   }
+body {
+    background-color:#dc1515 ;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+}  
+
+nav a {
+    text-align: center;
+    background-color: #b40000;;
+    font-family: "Young Serif",Helvetica, sans-serif ;
+   font-size: 20px;
+    margin: 0;
+    padding: 35px;
+    text-decoration: none;
+    color: #ff5656;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+    
+p {
+    font-family: "Young Serif",Helvetica, sans-serif   
+}
+
+h2 {
+    
+    font-family: 'Playfair Display', 'Regular 400', Garamond , sans-serif;
+     color: #b40000;
+     background-color:#ff5656;
+    margin: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color:#b40000;
+}
+
+
+
+
+
+
+
+
+a {
+    font-family: "Young Serif",Helvetica, sans-serif ;}
+footer a {
+    background-color: #b40000;
+    font-size: 1.2em;
+    font-family: "Young Serif",Helvetica, sans-serif ;;
+    color: #ff5656;
+    margin-top: 200px;
+    border-radius: 5px;
+    text-decoration:none
+    
+}
+
+footer {
+    background-color: #b40000;
+    font-family: "Young Serif",Helvetica, sans-serif ;
+    color:#ff5656;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration:none
+    
+}
