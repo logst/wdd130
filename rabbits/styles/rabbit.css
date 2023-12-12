@@ -28,7 +28,13 @@ nav {
     display: flex;
     justify-content: space-around;
 }
-    
+
+#hours {
+    margin: 20px;
+}
+
+
+
 p {
     font-family: "Young Serif",Helvetica, sans-serif   
 }
@@ -36,9 +42,18 @@ p {
 h2 {
     
     font-family: 'Playfair Display', 'Regular 400', Garamond , sans-serif;
-     color: #b40000;
+    font-size: 2.2em;
+    color: #ffffff;
      background-color:#ff5656;
     margin: 0;
+}
+
+h3 {
+    font-family: 'Playfair Display', 'Regular 400', Garamond , sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+    background-color:#ff5656;
+    margin: 5;
 }
 
 header {
@@ -47,16 +62,32 @@ header {
     background-color:#b40000;
 }
 
-
-
-
-
-
-
-
 a {
     font-family: "Young Serif",Helvetica, sans-serif ;}
-footer a {
+
+#intro { 
+    text-align: center; 
+}
+
+#adopttoday{
+    text-align: center;
+}
+
+.Adoption-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#contactus{
+    text-align: center;
+  }  
+  
+  
+    
+    footer a {
     background-color: #b40000;
     font-size: 1.2em;
     font-family: "Young Serif",Helvetica, sans-serif ;;
