@@ -4,7 +4,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #dc1515;
    }
 body {
     background-color:#dc1515 ;
@@ -18,7 +18,7 @@ nav a {
     text-align: center;
     background-color: #b40000;;
     font-family: "Young Serif",Helvetica, sans-serif ;
-   font-size: 20px;
+   font-size: 25px;
     margin: 0;
     padding: 35px;
     text-decoration: none;
@@ -44,7 +44,7 @@ h2 {
     font-family: 'Playfair Display', 'Regular 400', Garamond , sans-serif;
     font-size: 2.2em;
     color: #ffffff;
-     background-color:#ff5656;
+    background-color:#ff5656;
     margin: 0;
 }
 
@@ -53,7 +53,7 @@ h3 {
     font-size: 1em;
     color: #ffffff;
     background-color:#ff5656;
-    margin: 5;
+    margin: 3;
 }
 
 header {
@@ -69,11 +69,15 @@ a {
     text-align: center; 
 }
 
-#adopttoday{
+.adopttoday{
     text-align: center;
+    margin-bottom:0px;
+    background-color: #ff5656;
 }
 
-.Adoption-grid{
+
+
+.adoption-grid{
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 50px;
@@ -81,12 +85,162 @@ a {
     margin-top: 50px;
 }
 
-#contactus{
+.snowball-card{
+    grid-column: 1/2;
+    grid-row: 1/2;
     text-align: center;
-  }  
+}
+
+.snowball-card h3{
+    width: 225px;
+    margin-left: 122px;  
+}
+
+.mittens-card{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.mittens-card h3{
+    width: 225px;
+    margin-left: 122px;   
+}
+
+.grumpy-card{
+    grid-column: 1/2;
+    grid-row: 3/4; 
+    text-align: center;
+}
+
+.grumpy-card h3{
+    width: 225px;
+    margin-left: 122px;  
+}
+
+.helpinghands{
+    text-align: center;
+    background-color: #ff5656;
+} 
+
+.helpinghands h3{
+    width: 900px;
+    margin-inline: 122px;  
+}
+
+.handson{
+    text-align: center;
+    background-color: #ff5656;  
+}
+
+.handson h3{
+    width: 900px;
+    margin-inline: 122px;   
+}
+
+#hours {
+grid-column: 2/3;
+grid-row: 4/5;
+text-align: center;
+background-color: #ff5656;
+}
+
+#slogen {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    text-align: center;
+}
+
+#slogen h3{
+    width: 225px;
+    margin-inline: 122px;
+}
+
+
+img {
+    border-radius: 5%;
+}
+
+
+
+  #adoption2{
+    text-align: center;
+  }
   
-  
-    
+  .adoption-grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+   
+  .peter-card{
+    grid-template-columns: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+}
+.peter-card h3 {
+    width: 225px;
+    margin-left: 239px;
+}
+
+.ruffles-card{
+    grid-template-columns: 1/2;
+    grid-row: 1/2;
+    text-align: center;  
+}
+
+.ruffles-card h3{
+    width: 225px;
+    margin-left: 239px; 
+}
+
+.Yuki-card{
+    grid-template-columns: 1/2;
+    grid-row: 2/3;
+    text-align: center;   
+}
+
+.Yuki-card h3{
+    width: 225px;
+    margin-left: 239px;   
+}
+
+.tohru-card{
+    grid-template-columns: 1/2;
+    grid-row: 2/3;
+    text-align: center;    
+}
+
+.tohru-card h3{
+    width: 225px;
+    margin-left: 239px;  
+}
+
+.leo-flapjak-card{
+    grid-template-columns: 1/2;
+    grid-row: 3/4;
+    text-align: center; 
+}
+
+.leo-flapjak-card h3{
+   width: 225px;
+    margin-left: 239px; 
+}
+
+.snowball-card2{
+    grid-template-columns: 1/2;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+.snowball-card2 h3{
+    width: 225px;
+    margin-left: 239px;  
+}
+
+
     footer a {
     background-color: #b40000;
     font-size: 1.2em;
@@ -98,7 +252,41 @@ a {
     
 }
 
-footer {
+
+#contactus{
+    text-align: center;
+  } 
+  
+  .volunteering{
+    text-align: center;
+    margin-top: 5;
+    background-color: #ff5656;
+  }
+
+  .help-gird{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .howtohelp{
+    text-align: center;
+    background-color: #ff5656;
+    padding-left: 6px;
+}
+
+  .howtohelp h3{
+    width: 225px;
+    margin-left: 239px;
+  
+}
+
+
+  .importantinfo{
+    text-align: center;
+    background-color: #ff5656;
+  }
+
+  footer {
     background-color: #b40000;
     font-family: "Young Serif",Helvetica, sans-serif ;
     color:#ff5656;
